@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=rows\ cols
+comment0.target=MyBoundedGrid(int,\ int)
+comment0.text=\n\ Constructs\ an\ empty\ MyBoundedGrid\ with\ the\ given\ dimensions.\n\ \n\ @param\ rows\ \ the\ grid's\ number\ of\ rows;\ \ rows\ >\ 0\ \n\ @param\ cols\ \ the\ grid's\ number\ of\ cols;\ \ cols\ >\ 0\n
+comment1.params=
+comment1.target=int\ getNumRows()
+comment1.text=\n\ Retrieves\ the\ number\ of\ rows.\n\ \n\ @return\ the\ grid's\ row\ count\n
+comment2.params=
+comment2.target=int\ getNumCols()
+comment2.text=\n\ Retrieves\ the\ number\ of\ columns.\n\ \n\ @return\ the\ grid's\ columns\ count\n
+comment3.params=loc
+comment3.target=boolean\ isValid(Location)
+comment3.text=\n\ Determines\ whether\ a\ location\ is\ valid.\n\ \n\ @param\ \ loc\ \ \ the\ location\ in\ quesion.\ \ loc\ \!\=\ null\n\ @return\ true\ \ if\ loc\ is\ valid\ in\ this\ grid;\ otherwise,\ \n\ \ \ \ \ \ \ \ \ false\ \n
+comment4.params=loc
+comment4.target=java.lang.Object\ get(Location)
+comment4.text=\n\ Retrieves\ an\ element\ from\ this\ grid\ at\ a\ location,\ or\n\ null\ if\ the\ location\ is\ unoccupied.\n\ \n\ @param\ loc\ is\ a\ valid\ location\ in\ this\ grid\n\ \n\ @return\ the\ object\ at\ location\ loc\ \n\ \ \ \ \ \ \ \ \ or\ null\ if\ the\ location\ is\ unoccupied\n
+comment5.params=loc\ obj
+comment5.target=java.lang.Object\ put(Location,\ java.lang.Object)
+comment5.text=\n\ Puts\ an\ element\ at\ location\ loc\ on\ this\ grid.\ \ Plus\n\ returns\ the\ object\ previously\ at\ that\ location,\ or\n\ null\ if\ the\ location\ is\ unoccupied.\n\ \n\ @param\ loc\ is\ a\ valid\ location\ in\ this\ grid\n\ @param\ obj\ \ the\ object\ to\ put\ at\ location\ loc\n\ \n\ @return\ the\ object\ at\ location\ loc\ \n\ \ \ \ \ \ \ \ \ or\ null\ if\ the\ location\ is\ unoccupied\n
+comment6.params=loc
+comment6.target=java.lang.Object\ remove(Location)
+comment6.text=\n\ Removes\ an\ element\ from\ this\ grid\ at\ a\ location.\ Plus\n\ returns\ the\ object\ previously\ at\ that\ location,\ or\n\ null\ if\ the\ location\ is\ unoccupied.\n\ \n\ @param\ loc\ is\ a\ valid\ location\ in\ this\ grid\n\ \n\ @return\ the\ object\ that\ was\ at\ location\ loc\ \n\ \ \ \ \ \ \ \ \ or\ null\ if\ the\ location\ is\ unoccupied\n
+comment7.params=
+comment7.target=java.util.ArrayList\ getOccupiedLocations()
+comment7.text=\n\ Returns\ all\ the\ occupied\ location\ in\ this\ grid.\n\ \n\ @return\ all\ the\ occupied\ locations\ in\ an\ array\ list;\ \n\ \ \ \ \ \ \ \ \ 0\ <\=\ list.size\ <\ getNumRows()\ *\ getNumCols()\n
+numComments=8

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ Runs\ the\ test\ that\ helps\ students\ verify\ whether\ the\ code\n\ for\ Block\ and\ MyBoundedGrid\ are\ working\ correctly.\n\ \n\ @param\ args\ \ the\ information\ from\ the\ command\ line\n
+numComments=1
